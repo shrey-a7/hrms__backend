@@ -6,9 +6,8 @@ import routes from "./routes/route.js";
 import cookieParser from "cookie-parser";
 import Employee from "./models/employee.js";
 import dbConnect from "./database/db.js";
-import dotenv from "dotenv";
 import cors from "cors";
-import dotenv from "dotenv";
+import dotenv from 'dotenv';
 dotenv.config();
 
 const app = express();
